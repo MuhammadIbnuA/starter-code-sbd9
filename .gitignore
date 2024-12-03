@@ -1,3 +1,5 @@
 node_modules
 package-lock.json
 ucil-sbd-2024-firebase-adminsdk-eb171-179a8c8b81.json
+__pycache__
+newrelic_agent.log

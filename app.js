@@ -2,6 +2,9 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const admin = require("firebase-admin");
+require('newrelic');
+require('dotenv').config();
+
 
 // Initialize Firebase Admin SDK
 const serviceAccount = require("./ucil-sbd-2024-firebase-adminsdk-eb171-179a8c8b81.json");
